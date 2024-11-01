@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-icon img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    color: #8F5BBD;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #e7d1fc;
+}
+
+.profile-options {
+    margin-left: 20px;
+}
+
+.profile-options a {
+    display: block;
+    color: #4a0065;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.profile-options a:hover {
+    text-decoration: underline;
+}
+/* gral */
+body {
+    font-family: 'Poppins', sans-serif; 
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    color: #230939;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    color: #230939;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dfbcff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* botón de enviar */
+button#submitBtn {
+    background-color: #dfbcff;
+    color: #230939;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button#submitBtn:hover {
+    background-color: #c69aff;
+}

@@ -1,0 +1,167 @@
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+background-color: #F0F0F0;
+font-family: 'Arial', sans-serif;
+color: #8F5BBD;
+text-align: center;
+margin: 0;
+padding: 0;
+
+
+/* Footer */
+footer {
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 14px;
+    color: #8F5BBD;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #8F5BBD;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+.footer-column p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #8F5BBD;
+    margin: 0;
+    padding: 0;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+/* Header */
+header {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+/* Barra de iconos */
+.icon-bar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Menú de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8F5BBD;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de productos */
+.productos h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.add-cart-btn {
+    background-color: #8F5BBD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-cart-btn:hover {
+    background-color: #6e45a1;
+}
+

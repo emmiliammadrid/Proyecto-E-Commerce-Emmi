@@ -1,0 +1,68 @@
+/* Estilos para el contenedor principal de producto */
+.pattern-box,
+.producto {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px; /* Ajusta el ancho según necesites */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+}
+
+/* Estilos para la imagen del producto */
+.imagen-producto {
+    width: 150px; /* Tamaño fijo para la imagen */
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+/* Contenedor de la información del producto */
+.info-producto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinea el texto a la izquierda */
+    text-align: left;
+}
+
+/* Nombre del producto */
+.nombre-producto {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #4b0054;
+    margin: 0;
+}
+
+/* Marca del producto */
+.marca-producto {
+    font-size: 1em;
+    color: #4b0054;
+    margin: 5px 0;
+}
+
+/* Precio del producto */
+.precio-producto {
+    font-size: 1.2em;
+    color: #4b0054;
+    margin: 10px 0;
+}
+
+/* Estilos para el botón */
+.boton-agregar {
+    background-color: #d6a6e0;
+    color: #4b0054;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+.boton-agregar:hover {
+    background-color: #b97bb7;
+}

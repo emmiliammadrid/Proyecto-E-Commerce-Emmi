@@ -1,0 +1,51 @@
+/* Imagen de fondo con capa opacada */
+body {
+    font-family: 'Arial', sans-serif;
+    color: #8F5BBD;
+    margin: 0;
+    padding: 0;
+    background: url('./assets/13.png') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+/* Capa de opacidad */
+.background-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(249, 249, 249, 0.8); /* Fondo semi-transparente */
+    z-index: -1;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #F0F0F0;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    font-size: 14px;
+    color: #8F5BBD;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h3 {
+ 

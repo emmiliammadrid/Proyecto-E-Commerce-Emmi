@@ -1,0 +1,69 @@
+/* Estilo del título de la sección FAQ */
+.faq-title {
+    font-size: 2.5em;
+    color: #4b0054;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-left: 10px; /* Alinea el título ligeramente desde el borde */
+}
+
+/* Estilo del título de la sección Términos y Condiciones */
+.terms-title {
+    font-size: 2.5em;
+    color: #4b0054;
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin-top: 40px;
+    margin-left: 10px; /* Alinea el título ligeramente desde el borde */
+}
+
+/* Contenedor de la sección de preguntas frecuentes */
+.faq-section {
+    width: 100%;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    padding-left: 10px; /* Alinea el contenido desde el borde izquierdo */
+}
+
+/* Estilo para las preguntas frecuentes */
+.faq-question {
+    font-size: 1.2em;
+    color: #4b0054;
+    font-weight: bold;
+    margin: 15px 0 5px;
+    cursor: pointer;
+    text-align: left;
+}
+
+/* Estilo para las respuestas de preguntas frecuentes */
+.faq-answer {
+    font-size: 1em;
+    color: #4b0054;
+    margin: 5px 0 15px;
+    display: none; /* Ocultar las respuestas inicialmente */
+    padding-left: 10px; /* Alinea la respuesta desde el borde de la pregunta */
+}
+
+/* Estilo de hover para las preguntas */
+.faq-question:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor de la sección de Términos y Condiciones */
+.terms-section {
+    width: 100%;
+    margin: 20px auto;
+    font-family: 'Arial', sans-serif;
+    padding-left: 10px; /* Alinea el contenido desde el borde izquierdo */
+}
+
+/* Estilo para los textos de Términos y Condiciones */
+.terms-text {
+    font-size: 1em;
+    color: #4b0054;
+    margin: 10px 0 15px;
+    text-align: left;
+}
+
